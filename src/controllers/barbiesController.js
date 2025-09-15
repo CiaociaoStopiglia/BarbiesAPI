@@ -121,7 +121,7 @@ barbies.splice(0, barbies.length, ...barbiesAtualizadas);
 
 res.status(200).json({
     success: true,
-    message: "Dados da barbie com sucesso",
+    message: "Dados da barbie atualizados com sucesso",
     barbie: barbieExiste
 
 })
